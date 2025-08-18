@@ -201,7 +201,7 @@ header2 {
 #logo {margin: 0;padding: 0;}
 #logo img {
 	display: inline-block;
-	width: 150px;	/*画像の幅*/
+	width: 100px;	/*画像の幅*/
 }
 
 /*トップページのロゴ*/
@@ -218,7 +218,7 @@ header2 {
 /*main
 ---------------------------------------------------------------------------*/
 /*h2*/
-main h2 {
+main2 h2 {
 	font-size: 1.5rem;	/*文字サイズ*/
 	font-weight: 500;	/*文字の太さ*/
 	color: var(--primary-color);	/*css冒頭で指定しているprimary-colorを読み込みます*/
@@ -226,19 +226,19 @@ main h2 {
 }
 
 /*h2の直後にlist-normal BOXが続く場合*/
-main h2 + .list-normal {
+main2 h2 + .list-normal {
 	margin-top: 7rem;	/*上に広めの余白をとる*/
 }
 
 /*h2の中の小文字表記（hosoku）*/
-main h2 .hosoku {
+main2 h2 .hosoku {
 	display: block;
 	font-size: 0.4em;	/*親要素の40%のサイズに*/
 	opacity: 0.5;		/*透明度。色が50%出る。*/
 }
 
 /*h3*/
-main h3 {
+main2 h3 {
 	font-size: 1.0rem;	/*文字サイズ*/
 	font-weight: 500;	/*文字の太さ*/
 }
