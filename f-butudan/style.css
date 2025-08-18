@@ -15,7 +15,7 @@
 
 /*テンプレート専用cssファイルの読み込み
 ---------------------------------------------------------------------------*/
-@import url("https://dl.dropboxusercontent.com/scl/fi/rkrw2rloaf3dy2ndivlm8/inview.css?rlkey=5huorl7e8laj61visk5yfx65a&st=cdwwwf63&dl=0");
+@import url("https://polypterusendlihezi-sudo.github.io/main-jsbox/f-butudan/inview.css");
 
 
 /*CSSカスタムプロパティ（サイト全体を一括管理する為の設定）
@@ -82,7 +82,7 @@ body2 {
 
 /*トップページの背景画像*/
 body2.home2 {
-	background-image: url('https://dl.dropboxusercontent.com/scl/fi/lbywklszkwm0mwads0o5t/bg1.png?rlkey=r1bics1c0udng7jy8v6f4p225&st=s7e6mww6&dl=0');	/*背景画像の読み込み*/
+	background-image: url('https://www.furuyashiki.co.jp/data/furuyashiki/image/f-butudan/bg1.png');	/*背景画像の読み込み*/
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: auto;
@@ -216,7 +216,7 @@ header2 .message {
 		width: 15vw;	/*画像の幅*/
 		height: 30vw;	/*画像の高さ*/
 		box-shadow: 5vw -5vw rgba(0,0,0,0.05);	/*ボックスの影。右へ、下へ(※マイナス記号つきなので上へ)、0,0,0は黒のことで0.05は色が5%出た状態。*/
-		background: url('https://dl.dropboxusercontent.com/scl/fi/t8tzaq4pao4j5s3jd70rq/mainimg_tate.png?rlkey=1gbzgful1wybx9jdgp6alf5q9&st=iknl8tom&dl=0') no-repeat center center / cover;	/*背景画像の読み込み*/
+		background: url('https://www.furuyashiki.co.jp/data/furuyashiki/image/f-butudan/mainimg_tate.png') no-repeat center center / cover;	/*背景画像の読み込み*/
 	}
 
 	}/*追加指定ここまで*/
