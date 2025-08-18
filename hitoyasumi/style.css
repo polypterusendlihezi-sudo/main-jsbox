@@ -14,8 +14,8 @@
 
 /*テンプレート専用cssファイルの読み込み
 ---------------------------------------------------------------------------*/
-@import url("https://polypterusendlihezi-sudo.github.io/main-jsbox/hitoyasumi/animation.css?rlkey=m45970ol0wgkqskuxwd0l2dgg");
-@import url("https://polypterusendlihezi-sudo.github.io/main-jsbox/hitoyasumi/inview.css?rlkey=xr3zn635n5nh1k68adh3kngkm");
+@import url("https://polypterusendlihezi-sudo.github.io/main-jsbox/hitoyasumi/animation.css");
+@import url("https://polypterusendlihezi-sudo.github.io/main-jsbox/hitoyasumi/inview.css");
 
 
 /*全体の設定
@@ -976,4 +976,5 @@ html, body {
 /*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
 }
+
 
