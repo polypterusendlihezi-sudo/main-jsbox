@@ -14,8 +14,8 @@
 
 /*テンプレート専用cssファイルの読み込み
 ---------------------------------------------------------------------------*/
-@import url("https://dl.dropboxusercontent.com/scl/fi/fyf56wktibtwhx0frz9nt/animation.css?rlkey=m45970ol0wgkqskuxwd0l2dgg");
-@import url("https://dl.dropboxusercontent.com/scl/fi/31fq0bcp8o7ch1qn7i6xk/inview.css?rlkey=xr3zn635n5nh1k68adh3kngkm");
+@import url("https://polypterusendlihezi-sudo.github.io/main-jsbox/hitoyasumi/animation.css?rlkey=m45970ol0wgkqskuxwd0l2dgg");
+@import url("https://polypterusendlihezi-sudo.github.io/main-jsbox/hitoyasumi/inview.css?rlkey=xr3zn635n5nh1k68adh3kngkm");
 
 
 /*全体の設定
@@ -30,7 +30,7 @@ html,body {
 body {
 	font-family: "Noto Sans JP","ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
-	background: #FFFD52 url(https://dl.dropboxusercontent.com/scl/fi/f5npkt1kb47nine6xs52w/kazari1.png?rlkey=8bz8gg97k50p5oc8cq0g2mj7p) no-repeat left top / 100%;	/*背景色、背景壁紙の読み込み*/
+	background: #FFFD52 url(https://www.furuyashiki.co.jp/data/furuyashiki/image/hitoyasumi/kazari1.png) no-repeat left top / 100%;	/*背景色、背景壁紙の読み込み*/
 	color: #57524b;		/*全体の文字色*/
 	line-height: 2;		/*行間*/
 }
@@ -123,7 +123,7 @@ header .tel {
 	width: 100px;	/*幅*/
 	height: 100px;	/*高さ*/
 	cursor: pointer;
-	background: #FF3939 url(https://dl.dropboxusercontent.com/scl/fi/jhpyucj2kfps22soo6ub6/ham.png?rlkey=kxffs5769y1qkr0fa51qsgn2g) no-repeat center top/100px;/*背景色、ハンバーガメニュー画像の読み込み。最後のpxは上のwidthとheightと#menubar_hdr.hamと揃えておいて下さい。*/
+	background: #FF3939 url(https://www.furuyashiki.co.jp/data/furuyashiki/image/hitoyasumi/ham.png) no-repeat center top/100px;/*背景色、ハンバーガメニュー画像の読み込み。最後のpxは上のwidthとheightと#menubar_hdr.hamと揃えておいて下さい。*/
 	border-radius: 58% 42% 61% 39% / 44% 55% 45% 56%;	/*角丸の指定*/
 	box-shadow: 2px 2px 0px 4px rgba(0,0,0,0.1);		/*ボックスの影。右へ、したへ、ぼかし幅、広げる距離。0,0,0は黒の事で0.1は色が10%でた状態の事。*/
 	transition: 0.2s;
@@ -136,7 +136,7 @@ header .tel {
 
 /*×印が出ている状態の設定。*/
 #menubar_hdr.ham {
-	background: #ff0000 url(https://dl.dropboxusercontent.com/scl/fi/jhpyucj2kfps22soo6ub6/ham.png?rlkey=kxffs5769y1qkr0fa51qsgn2g) no-repeat center bottom/100px;
+	background: #ff0000 url(https://www.furuyashiki.co.jp/data/furuyashiki/image/hitoyasumi/ham.png) no-repeat center bottom/100px;
 }
 
 
@@ -180,8 +180,8 @@ header .tel {
 /*decoブロックの設定*/
 .deco {
 	background: 
-	url(https://dl.dropboxusercontent.com/scl/fi/eqr8abgks22xpxjqmbll4/bg_deco_top.png?rlkey=5kyjwsmziwkb8ehpb5135tb55) repeat-x center top / 1000px,		/*ブロック上部の背景画像の指定。1000pxは画像幅。*/
-	url(https://dl.dropboxusercontent.com/scl/fi/8wwpdqunlywblusnmwbdm/bg_deco_bottom.png?rlkey=k9clbtgybczq658rfbynmxiov) repeat-x center bottom / 1000px;	/*ブロック下部の背景画像の指定。1000pxは画像幅。*/
+	url(https://www.furuyashiki.co.jp/data/furuyashiki/image/hitoyasumi/bg_deco_top.png) repeat-x center top / 1000px,		/*ブロック上部の背景画像の指定。1000pxは画像幅。*/
+	url(https://www.furuyashiki.co.jp/data/furuyashiki/image/hitoyasumi/bg_deco_bottom.png) repeat-x center bottom / 1000px;	/*ブロック下部の背景画像の指定。1000pxは画像幅。*/
 	padding-top: 199px;		/*上部の背景画像の本体の「幅」を1000pxにした際の画像の「高さ-1」をここで設定します*/
 	padding-bottom: 54px;	/*下部の背景画像の本体の「幅」を1000pxにした際の画像の「高さ-1」をここで設定します*/
 	color: #fff;	/*文字色*/
@@ -237,7 +237,7 @@ main h3 {
 /*mainブロック内のh3タグ内のulineタグ*/
 main h3 .uline {
 	display: inline-block;
-	background: url(https://dl.dropboxusercontent.com/scl/fi/0a8itayknfmq9i5gx62z1/u_line1.png?rlkey=xg81r569oq4a39toa39gu97j7) repeat-x center bottom / 100px;	/*下線のイラスト*/
+	background: url(https://www.furuyashiki.co.jp/data/furuyashiki/image/hitoyasumi/u_line1.png) repeat-x center bottom / 100px;	/*下線のイラスト*/
 	padding: 0 15px 10px;	/*上、左右、下への余白*/
 }
 
@@ -976,3 +976,4 @@ html, body {
 /*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
 }
+
