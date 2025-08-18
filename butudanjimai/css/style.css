@@ -180,7 +180,7 @@ header2 {
 }
 
 /*トップページのヘッダーブロック*/
-.home header2 {
+.home2 header2 {
 	padding: 80px 0;	/*上下、左右へのヘッダー内の余白*/
 	margin-left: 25px;	/*左側へのマージン（外側への余白）*/
 	margin-right: 0;	/*右側マージンをなくす（スライドショーが画面右側まで出るように）*/
@@ -190,7 +190,7 @@ header2 {
 	@media screen and (max-width:700px) {
 
 	/*トップページのヘッダーブロック*/
-	.home header2 {
+	.home2 header2 {
 		margin-left: 0px;
 	}
 
@@ -205,8 +205,8 @@ header2 {
 }
 
 /*トップページのロゴ*/
-.home #logo {margin: 0 auto;}
-.home #logo img {
+.home2 #logo {margin: 0 auto;}
+.home2 #logo img {
 	width: 100px;	/*画像の幅。実際には下のpaddingを引いた数字が幅になります。*/
 	padding: 10px;	/*余白。ロゴがギチギチにならないようにする為。*/
 }
