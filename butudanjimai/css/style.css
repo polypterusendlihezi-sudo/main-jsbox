@@ -60,9 +60,9 @@
 
 /*全体の設定
 ---------------------------------------------------------------------------*/
-html,body {height: auto;}
+html,body2 {height: auto;}
 
-body {
+body2 {
 	font-family: 'Zen Maru Gothic', "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
 	background: #faf8f7;	/*背景色*/
@@ -123,7 +123,7 @@ a:hover {
 
 /*コンテナー（サイト全体を囲むブロック）
 ---------------------------------------------------------------------------*/
-#container {
+#container2 {
 	width: 100％;
 	height: 100%;
 	display: flex;					/*flexを使う指定*/
@@ -136,7 +136,7 @@ a:hover {
 
 /*コンテンツ
 ---------------------------------------------------------------------------*/
-#contents {
+#contents2 {
 	flex: 1;
 }
 
