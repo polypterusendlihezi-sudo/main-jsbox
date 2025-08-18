@@ -124,7 +124,7 @@ a:hover {
 /*コンテナー（サイト全体を囲むブロック）
 ---------------------------------------------------------------------------*/
 #container {
-	width: auto;
+	width: 100％;
 	height: 100%;
 	display: flex;					/*flexを使う指定*/
 	flex-direction: column;			/*子要素を縦並びにする*/
@@ -1095,3 +1095,16 @@ a.btn--orange:hover {
   color: #fff;
   background: #f56500;
 }
+
+
+
+
+
+/* おちゃのこ標準レイアウトの復旧 */
+#container { 
+  display: block !important;           /* flexを解除 */
+  width: 100% !important;              /* 全角％の影響を消す */
+}
+
+/* 念のため、共通ユーティリティの競合を避ける */
+.pc, .dn { display: revert !important; }
