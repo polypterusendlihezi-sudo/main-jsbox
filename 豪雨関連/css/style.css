@@ -860,12 +860,15 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 /* === list-grid1：画像センター＆見た目サイズ統一、列数ブレークポイント修正 === */
 :root{ --thumb-h: 220px; } /* ここでサムネ高さを一括調整 */
 
-.list-grid1{ 
-  display:grid; 
-  grid-template-columns: 1fr; 
-  gap:1rem; 
-  color: var(--text-color);
+/* list-grid1 を中央寄せにする */
+.list-grid1 {
+  justify-content: center;   /* gridの内容を中央寄せ */
+  margin-left: auto;         /* ブロック自体を中央に */
+  margin-right: auto;
+  max-width: 1200px;         /* 横幅の上限。必要に応じて調整 */
+  gap: 1.5rem;               /* アイテム間の余白 */
 }
+
 
 /* 600px～：2列 */
 @media (min-width:600px){
@@ -907,6 +910,7 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 
 /* 中央寄せのためのユーティリティ（centerタグ廃止用） */
 .c { text-align:center !important; }
+
 
 
 
