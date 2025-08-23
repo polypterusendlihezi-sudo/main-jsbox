@@ -174,7 +174,7 @@ a.ddmenu::before {
 ---------------------------------------------------- */
 main h2{
   font-family: "Reddit Sans","Noto Sans JP",sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1em;
   color: var(--primary-color);
 }
@@ -447,4 +447,5 @@ footer .pr{ display: block; }
 @media (max-width: 960px){
   .stepbar{ width: 92%; }
 }
+
 
