@@ -326,7 +326,7 @@ main h2 {
 /*h2内の小文字部分*/
 main h2 .hosoku {
 	display: block;font-weight: normal;
-	font-size: 2em;	/*親要素の40%のサイズに*/
+	font-size: 2rem;	/*親要素の40%のサイズに*/
 }
 
 /*h3(見出し)要素*/
@@ -544,7 +544,7 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 
 	/*listブロック全体を囲むブロック*/
 	.list-grid1 {
-		grid-template-columns: repeat(2, 1fr);	/*2列にする指定。4列にしたければrepeat(4, 1fr)とする。*/
+		grid-template-columns: repeat(1, 1fr);	/*2列にする指定。4列にしたければrepeat(4, 1fr)とする。*/
 		gap: 1rem;	/*ブロックの間に空けるマージン的な指定*/
 	}
 
@@ -556,7 +556,7 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 
 	/*listブロック全体を囲むブロック*/
 	.list-grid1 {
-		grid-template-columns: repeat(1, 1fr);	/*3列にする指定。4列にしたければrepeat(4, 1fr)とする。*/
+		grid-template-columns: repeat(2, 1fr);	/*3列にする指定。4列にしたければrepeat(4, 1fr)とする。*/
 		gap: 1rem;	/*ブロックの間に空けるマージン的な指定*/
 	}
 
@@ -843,6 +843,7 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 	margin: 5px 0;				/*上下、左右へ空けるスペース*/
 
 }
+
 
 
 
