@@ -403,3 +403,50 @@ footer { font-size: 0.7rem; text-align: center; padding: 20px; }
 footer a{ color: inherit; text-decoration: none; }
 footer .pr{ display: block; }
 
+.stepbar {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid #dedede;
+}
+
+.stepbar .stepbarwrap .triangle {
+  content: "";
+  display: block;
+  width: 0;
+  border: solid 1em transparent;
+  border-top-color: #dedede;
+  margin: 0 auto;
+}
+
+.stepbar .stepbarwrap .steptitle span {
+  display: block;
+  font-weight: bold;
+  margin: 1em auto;
+}
+
+.stepbar .stepbarwrap .title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.stepbar .stepbarwrap .txt {
+  width: 90%;
+  display: block;
+  margin: 2em auto;
+  font-size: 0.9em;
+}
+
+.stepbar:first-of-type .triangle:first-of-type {
+  display: none;
+}
+
+.stepbar:last-of-type .stepbarwrap:last-of-type {
+  border-bottom: 1px solid #dedede;
+}
+
+@media screen and (max-width: 960px) {
+  .stepbar {
+    width: 90%;
+  }
+}
