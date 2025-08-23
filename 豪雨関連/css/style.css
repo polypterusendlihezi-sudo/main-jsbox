@@ -572,9 +572,22 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 }
 
 /*ボックス内のfigure画像*/
-.list-grid1 .list figure img {
-	margin-bottom: 0.5rem;	/*画像の下に空けるスペース*/
+/* figure をセンター寄せする */
+.list-grid1 .list figure {
+  display: flex;              /* フレックスボックス化 */
+  justify-content: center;    /* 横方向センター */
+  align-items: center;        /* 縦方向センター（必要に応じて） */
 }
+
+/* 画像を揃える */
+.list-grid1 .list figure img {
+  max-width: 100%;        /* はみ出さない */
+  height: 200px;          /* 高さを統一（好みで変更） */
+  width: auto;            /* アスペクト比を維持 */
+  object-fit: contain;    /* 縦横比を保ちながら収める */
+  margin-bottom: 0.5rem;  /* 下の余白 */
+}
+
 
 
 /*ボタン（btnと、btn-border-radius）
@@ -843,6 +856,7 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 	margin: 5px 0;				/*上下、左右へ空けるスペース*/
 
 }
+
 
 
 
