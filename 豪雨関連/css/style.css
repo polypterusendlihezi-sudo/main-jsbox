@@ -869,13 +869,10 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 
 /* 600px～：2列 */
 @media (min-width:600px){
-  .list-grid1{ grid-template-columns: repeat(2,1fr); }
+  .list-grid1{ grid-template-columns: repeat(1,1fr); }
 }
 
-/* 1000px～：3列（任意。2列のままで良ければこの塊を削除） */
-@media (min-width:1000px){
-  .list-grid1{ grid-template-columns: repeat(3,1fr); }
-}
+
 
 /* カード本体：行レイアウト（上：画像枠、下：本文） */
 .list-grid1 .list{
@@ -910,6 +907,7 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 
 /* 中央寄せのためのユーティリティ（centerタグ廃止用） */
 .c { text-align:center !important; }
+
 
 
 
