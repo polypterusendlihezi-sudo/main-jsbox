@@ -858,7 +858,7 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 }
 
 /* 画像の高さ（必要なら調整） */
-:root { --thumb-h: 220px; }
+:root { --thumb-h: 400px; }
 
 /* ▼ この修飾子が付いているグリッドだけ中央寄せ＋2列化 */
 .list-grid1.is-centered-2col{
@@ -904,3 +904,4 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
   object-fit:contain;   /* トリミングしたいなら cover */
   margin-bottom:0 !important;
 }
+
