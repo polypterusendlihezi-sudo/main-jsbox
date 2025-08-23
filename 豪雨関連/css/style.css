@@ -59,7 +59,7 @@
 body * {box-sizing: border-box;}
 html,body {
 	height: 100%;
-	font-size: 25px;	/*基準となるフォントサイズ。*/
+	font-size: 30px;	/*基準となるフォントサイズ。*/
 }
 
 	/*画面幅900px以上の追加指定*/
@@ -326,7 +326,7 @@ main h2 {
 /*h2内の小文字部分*/
 main h2 .hosoku {
 	display: block;font-weight: normal;
-	font-size: 0.3em;	/*親要素の40%のサイズに*/
+	font-size: 1em;	/*親要素の40%のサイズに*/
 }
 
 /*h3(見出し)要素*/
@@ -843,6 +843,7 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 	margin: 5px 0;				/*上下、左右へ空けるスペース*/
 
 }
+
 
 
 
