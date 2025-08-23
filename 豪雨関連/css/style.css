@@ -885,17 +885,3 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
   margin-bottom:0 !important;
 }
 
-/* iPhone等の狭幅では必ず1列に固定（強制上書き） */
-@media screen and (max-width: 599.98px), screen and (max-device-width: 599.98px){
-  .list-grid1.is-centered-2col{
-    grid-template-columns: 1fr !important;
-  }
-}
-
-  /* 念のため、カード幅を縛っている指定を無効化 */
-  .list-grid1.is-centered-2col .list{
-    width: auto !important;
-  }
-}
-
-
