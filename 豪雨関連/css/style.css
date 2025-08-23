@@ -885,3 +885,29 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
   margin-bottom:0 !important;
 }
 
+/* === iPhone 崩れ対策（追記） ================================ */
+
+/* 1) 基準フォントをモバイル寄りに調整（でか過ぎ対策） */
+html { font-size: clamp(15px, 1.6vw + 10px, 18px); }
+
+/* 2) iPhoneの入力ズーム防止：入力系は必ず16px以上 */
+@media (max-width: 600px){
+  input, select, textarea, button { font-size: 16px !important; }
+  /* コンテンツ左右の余白が広すぎる場合を圧縮 */
+  :root { --global-space: 5vw; }
+}
+
+/* 3) Safariの自動テキスト調整は有効化（none をやめる） */
+body { -webkit-text-size-adjust: 100% !important; }
+
+/* 4) 横スクロールの根絶（はみ出しガード） */
+html, body { overflow-x: hidden; }
+
+/* 5) GoogleMap等の iframe を親幅に合わせる */
+iframe { width: 100% !important; max-width: 100% !important; }
+
+/* 6) 下部カード：iPhoneは必ず1列（念押し） */
+@media (max-width: 600px){
+  .list-grid1.is-centered-2col { grid-template-columns: 1fr !important; }
+}
+
