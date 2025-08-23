@@ -857,29 +857,29 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 
 }
 
-/* === list-grid1：画像センター＆見た目サイズ統一、列数ブレークポイント修正 === */
-:root{ --thumb-h: 220px; } /* ここでサムネ高さを一括調整 */
+/* 画像の高さ（必要なら調整） */
+:root { --thumb-h: 220px; }
 
-/* list-grid1 を中央寄せにする */
-.list-grid1 {
+/* ▼ この修飾子が付いているグリッドだけ中央寄せ＋2列化 */
+.list-grid1.is-centered-2col{
   display: grid;
-  grid-template-columns: 1fr;  /* 初期は1列 */
-  justify-content: center;     /* grid全体を中央寄せ */
-  margin-left: auto;           /* コンテナ自体を中央に */
-  margin-right: auto;
-  max-width: 1200px;           /* 横幅の上限。必要に応じて調整 */
-  gap: 1.5rem;                 /* アイテム間の余白 */
-  padding-inline: 1rem;        /* 左右に少し余白 */
+  grid-template-columns: 1fr;   /* 初期1列 */
+  gap: 1.5rem;
+  max-width: 1100px;            /* 枠幅（両端に余白） */
+  margin-inline: auto;          /* 中央寄せ */
+  padding-inline: 1rem;
+  justify-content: center;      /* グリッド内容も中央寄せ */
 }
 
-/* 600px～：2列 */
+/* 600px～：2列（PCでも2列維持） */
 @media (min-width:600px){
-  .list-grid1{ grid-template-columns: repeat(2, minmax(280px, 1fr)); }
+  .list-grid1.is-centered-2col{
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+  }
 }
 
-
-/* カード本体：行レイアウト（上：画像枠、下：本文） */
-.list-grid1 .list{
+/* ▼ カード内レイアウト・画像調整も“このグリッド内だけ”に限定 */
+.list-grid1.is-centered-2col .list{
   display: grid;
   grid-template-rows: auto 1fr;
   padding: 1rem;
@@ -887,39 +887,20 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
   box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
 }
 
-/* 画像枠（figure）：中央寄せ＋固定高、余白は枠側で付与 */
-.list-grid1 .list figure{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.list-grid1.is-centered-2col .list figure{
+  display:flex;
+  justify-content:center;
+  align-items:center;
   height: var(--thumb-h);
   margin: 0 0 .75rem;
 }
 
-/* 画像：枠内に収める。比率維持。margin-bottomは付けない */
-.list-grid1 .list figure img{
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain; /* 全体表示。トリミングしたいなら cover に変更 */
-  margin-bottom: 0 !important;
+.list-grid1.is-centered-2col .list figure img{
+  display:block;
+  max-width:100%;
+  max-height:100%;
+  width:auto;
+  height:auto;
+  object-fit:contain;   /* トリミングしたいなら cover */
+  margin-bottom:0 !important;
 }
-
-/* 中央寄せのためのユーティリティ（centerタグ廃止用） */
-.c { text-align:center !important; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
