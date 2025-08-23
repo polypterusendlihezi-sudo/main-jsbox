@@ -402,7 +402,7 @@ main h3{ display: inline-block; border-bottom: 3px solid var(--text-color); }
 footer { font-size: 0.7rem; text-align: center; padding: 20px; }
 footer a{ color: inherit; text-decoration: none; }
 footer .pr{ display: block; }
-
+}
 .stepbar {
   width: 80%;
   margin: 0 auto;
@@ -450,3 +450,4 @@ footer .pr{ display: block; }
     width: 90%;
   }
 }
+
