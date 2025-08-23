@@ -59,14 +59,14 @@
 body * {box-sizing: border-box;}
 html,body {
 	height: 100%;
-	font-size: 13px;	/*基準となるフォントサイズ。*/
+	font-size: 16px;	/*基準となるフォントサイズ。*/
 }
 
 	/*画面幅900px以上の追加指定*/
 	@media screen and (min-width:1000px) {
 
 		html, body {
-			font-size: 16px;	/*基準となるフォントサイズ。*/
+			font-size: 18px;	/*基準となるフォントサイズ。*/
 		}
 
 	}/*追加指定ここまで*/
@@ -843,4 +843,5 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 	margin: 5px 0;				/*上下、左右へ空けるスペース*/
 
 }
+
 
