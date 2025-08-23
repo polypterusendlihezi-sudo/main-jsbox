@@ -862,24 +862,25 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 
 /* list-grid1 を中央寄せにする */
 .list-grid1 {
-  justify-content: center;   /* gridの内容を中央寄せ */
-  margin-left: auto;         /* ブロック自体を中央に */
+  display: grid;
+  grid-template-columns: 1fr;  /* 初期は1列 */
+  justify-content: center;     /* grid全体を中央寄せ */
+  margin-left: auto;           /* コンテナ自体を中央に */
   margin-right: auto;
-  max-width: 1200px;         /* 横幅の上限。必要に応じて調整 */
-  gap: 1.5rem;               /* アイテム間の余白 */
+  max-width: 1200px;           /* 横幅の上限。必要に応じて調整 */
+  gap: 1.5rem;                 /* アイテム間の余白 */
+  padding-inline: 1rem;        /* 左右に少し余白 */
 }
-
 
 /* 600px～：2列 */
 @media (min-width:600px){
-  .list-grid1{ grid-template-columns: repeat(1,1fr); }
+  .list-grid1{ grid-template-columns: repeat(2, minmax(280px, 1fr)); }
 }
-
 
 
 /* カード本体：行レイアウト（上：画像枠、下：本文） */
 .list-grid1 .list{
-  display:grid;
+  display: grid;
   grid-template-rows: auto 1fr;
   padding: 1rem;
   background:#fff;
@@ -888,25 +889,23 @@ animationの行の「0.05s」が文字の出現のなめらかさで、大きい
 
 /* 画像枠（figure）：中央寄せ＋固定高、余白は枠側で付与 */
 .list-grid1 .list figure{
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: var(--thumb-h);
   margin: 0 0 .75rem;
 }
 
 /* 画像：枠内に収める。比率維持。margin-bottomは付けない */
 .list-grid1 .list figure img{
-  display:block;
-  max-width:100%;
-  max-height:100%;
-  width:auto;
-  height:auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   object-fit: contain; /* 全体表示。トリミングしたいなら cover に変更 */
+  margin-bottom: 0 !important;
 }
-
-/* 既存の“img { margin-bottom: 0.5rem; }”等があれば無効化 */
-.list-grid1 .list figure img{ margin-bottom: 0 !important; }
 
 /* 中央寄せのためのユーティリティ（centerタグ廃止用） */
 .c { text-align:center !important; }
