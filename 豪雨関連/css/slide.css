@@ -36,7 +36,7 @@
 
 /*１枚目画像*/
 .slide1 {
-	background: url('../images/1.jpg') no-repeat center center / cover;	/*１枚目の背景画像の読み込み*/
+	background: url('./images/1.jpg') no-repeat center center / cover;	/*１枚目の背景画像の読み込み*/
 }
 
 
@@ -64,6 +64,7 @@
 .slide.active {
 	pointer-events: auto; /* 表示中のスライドのみクリックを有効にする */
 }
+
 
 
 
