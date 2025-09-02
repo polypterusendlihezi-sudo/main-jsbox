@@ -13,8 +13,8 @@
 
 /*テンプレート専用cssファイルの読み込み
 ---------------------------------------------------------------------------*/
-@import url("https://dl.dropboxusercontent.com/scl/fi/z3rl3h03jya78u7uuhc78/slide.css?rlkey=scxpdj3et9r0pvkr4fbbziaox&st=4civr0dx&dl=0");
-@import url("https://dl.dropboxusercontent.com/scl/fi/dseozvok8q7ucsxtwfph2/inview.css?rlkey=oktqi54tjxv1o06qhp1a8nydi&st=21p4l9ql&dl=0");
+@import url("slide.css");
+@import url("inview.css");
 
 
 /*CSSカスタムプロパティ（サイト全体を一括管理する為の設定）
@@ -559,12 +559,12 @@ footer h4 {
 
 /*左側ボックスの背景*/
 .list-c2 .list.image1 {
-	background: url("https://dl.dropboxusercontent.com/scl/fi/92q2woz6f7g9ge743pqbh/6.jpg?rlkey=nrz5lzch1xddhgc64g97cnw8v&st=1bsrz4o3&dl=0") no-repeat center center / cover;
+	background: url("./images/6.jpg") no-repeat center center / cover;
 }
 
 /*右側ボックスの背景*/
 .list-c2 .list.image2 {
-	background: url("https://dl.dropboxusercontent.com/scl/fi/92q2woz6f7g9ge743pqbh/6.jpg?rlkey=nrz5lzch1xddhgc64g97cnw8v&st=1bsrz4o3&dl=0") no-repeat center center / cover;
+	background: url("./images/6.jpg") no-repeat center center / cover;
 }
 
 /*h4見出し*/
@@ -981,32 +981,32 @@ footer h4 {
 ---------------------------------------------------------------------------*/
 /*冒頭の大きなロゴの飾り*/
 .logo-kazari {
-	background: url("https://dl.dropboxusercontent.com/scl/fi/kp28ymbjlrbqsf66y4waw/logo_kazari.svg?rlkey=oygovmugz59giq0qm81i3jyfx&st=cflse51v&dl=0") no-repeat left top / 70%;	/*ロゴ画像の読み込み。左上に配置し、幅は70%。*/
+	background: url("./images/logo_kazari.svg") no-repeat left top / 70%;	/*ロゴ画像の読み込み。左上に配置し、幅は70%。*/
 }
 
 /*１枚目の写真*/
 .list2.image1 {
-	background: url("https://dl.dropboxusercontent.com/scl/fi/i3cz24krdsqv0lueq0bd7/1.jpg?rlkey=8espdhih8j4hxgfyxutagcd97&st=87fnplti&dl=0") no-repeat center center / cover;
+	background: url("./images/1.jpg") no-repeat center center / cover;
 }
 
 /*２枚目の写真*/
 .list1.image2 {
-	background: url("https://dl.dropboxusercontent.com/scl/fi/gs836s675totrvu4vqtjq/naosu.jpg?rlkey=8eyi8ullxvxgqo4fi0bnu3td2&st=61wsuz8c&dl=0") no-repeat center center / cover;
+	background: url("./images/naosu.jpg") no-repeat center center / cover;
 }
 
 /*３枚目の写真*/
 .list2.image3 {
-	background: url("https://dl.dropboxusercontent.com/scl/fi/yesircq0icq8h0rjm55nl/souji.jpg?rlkey=etuegtfl5rizumt4vb0fq1akd&st=6hf2xiw3&dl=0") no-repeat center center / cover;
+	background: url("./images/souji.jpg") no-repeat center center / cover;
 }
 
 /*４枚目の写真*/
 .list1.image4 {
-	background: url("https://dl.dropboxusercontent.com/scl/fi/afyf93dyfu96xy4bpm400/horu.jpg?rlkey=597ga6rugms4yrllteuua375w&st=f2gn6vuv&dl=0") no-repeat center center / cover;
+	background: url("./images/horu.jpg") no-repeat center center / cover;
 }
 
 /*5枚目の写真*/
 .list2.image5 {
-	background: url("https://dl.dropboxusercontent.com/scl/fi/srbugp8vdcj3efjl0fuzd/3.jpg?rlkey=kvqg09h11ujtm5t3pieqbvwc8&st=dwsjfx5d&dl=0") no-repeat center center / cover;
+	background: url("./images/3.jpg") no-repeat center center / cover;
 }
 
 /*ボックス１個あたり*/
