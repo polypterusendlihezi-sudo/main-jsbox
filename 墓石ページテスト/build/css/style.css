@@ -1820,7 +1820,7 @@ section > .bg-slideup:first-child {
 	margin-top: 2rem;
 }
 .manual h3 span {
-	background: linear-gradient(transparent 60%, yellow);
+	background: linear-gradient(transparent 60%, rgb(194, 150, 6));
 }
 .manual h3 + p {margin-top: -0.5rem;}
 .manual.margin-left {padding-left: 300px;}
