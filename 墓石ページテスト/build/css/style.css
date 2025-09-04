@@ -1912,6 +1912,15 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 
 	}/*追加指定ここまで*/
 
-
+	/*3DCAD*/
+.iframe-wrap iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border:none;
+    display:block;
+}
 
 
