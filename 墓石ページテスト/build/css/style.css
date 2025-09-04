@@ -1883,7 +1883,7 @@ section > .bg-slideup:first-child {
 /*その他
 ---------------------------------------------------------------------------*/
 .clearfix::after {content: "";display: block;clear: both;}
-.color-check, .color-check a {color: #f3f165 !important;}
+.color-check, .color-check a {color: #c98b06 !important;}
 .l {text-align: left !important;}
 .c {text-align: center !important;}
 .r {text-align: right !important;}
