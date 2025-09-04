@@ -1288,7 +1288,7 @@ text-align:justify
 
 /*bg-black内のボックスへの追加設定*/
 .list-grid3 .list.bg-black {
-	background: #a3b7b8;	/*背景色*/
+	background: #ffffff;	/*背景色*/
 	color: #000000;		/*文字色*/
 }
 
