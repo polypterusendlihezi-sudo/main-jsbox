@@ -1913,11 +1913,25 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 	}/*追加指定ここまで*/
 
 	/*3DCAD*/
-.iframe-wrap {
+/* 1) ラッパーを基準にしてサイズを決める */
+.iframe-wrap{
   position: relative;
   width: 100%;
-  aspect-ratio: 16/9; /* 横縦比を維持 */
+  aspect-ratio: 16/9;     /* 固定高さにしたいなら height: 520px; などでも可 */
+  overflow: hidden;
 }
+
+/* 2) 中のiframeはラッパー内でぴったりに配置 */
+.iframe-wrap iframe{
+  position: absolute;
+  inset: 0;               /* top:0; right:0; bottom:0; left:0; の省略 */
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  z-index: 0;             /* 万一ほか要素に被る場合の予防 */
+}
+
 
 
 
