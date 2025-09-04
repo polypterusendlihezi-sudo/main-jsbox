@@ -529,6 +529,7 @@ a.ddmenu::before {
   overflow-wrap: anywhere;            /* 長い英数字対策 */
   word-break: break-word;
 }
+
 .br--sp{ display:none; }
 @media (max-width:420px){ .br--sp{ display:inline; } }
 
@@ -570,11 +571,7 @@ a.ddmenu::before {
     padding: 12px 16px;
   }
 
-
-
-
 	}/*追加指定ここまで*/
-
 
 /*ボタン*/
 #mainimg .btn {
@@ -1026,7 +1023,7 @@ footer small {
 /*bg2
 ---------------------------------------------------------------------------*/
 .bg2 {
-	background: #ffffff;	/*背景色*/
+	background: #f3f3e9;	/*背景色*/
 }
 
 
@@ -1168,7 +1165,7 @@ footer small {
 
 /*bg-black内のボックスへの追加設定*/
 .list-grid1 .list.bg-black {
-	background: #a3b7b8;	/*背景色*/
+	background: #ffffff;	/*背景色*/
 	color: #000000;		/*文字色*/
 }
 
@@ -1914,6 +1911,7 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 	.pc {display: block;}
 
 	}/*追加指定ここまで*/
+
 
 
 
