@@ -1026,7 +1026,7 @@ footer small {
 /*bg2
 ---------------------------------------------------------------------------*/
 .bg2 {
-	background: #f3f3e9;	/*背景色*/
+	background: #ffffff;	/*背景色*/
 }
 
 
@@ -1914,5 +1914,6 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 	.pc {display: block;}
 
 	}/*追加指定ここまで*/
+
 
 
