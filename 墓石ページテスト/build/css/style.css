@@ -1913,15 +1913,12 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 	}/*追加指定ここまで*/
 
 	/*3DCAD*/
-.iframe-wrap iframe {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:auto;
-    border:none;
-    display:block;
+.iframe-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9; /* 横縦比を維持 */
 }
+
 
 
 
