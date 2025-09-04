@@ -564,7 +564,7 @@ footer h4 {
 
 /*右側ボックスの背景*/
 .list-c2 .list.image2 {
-	background: url("./images/6.jpg") no-repeat center center / cover;
+	background: url("../images/6.jpg") no-repeat center center / cover;
 }
 
 /*h4見出し*/
@@ -981,32 +981,32 @@ footer h4 {
 ---------------------------------------------------------------------------*/
 /*冒頭の大きなロゴの飾り*/
 .logo-kazari {
-	background: url("./images/logo_kazari.svg") no-repeat left top / 70%;	/*ロゴ画像の読み込み。左上に配置し、幅は70%。*/
+	background: url("../images/logo_kazari.svg") no-repeat left top / 70%;	/*ロゴ画像の読み込み。左上に配置し、幅は70%。*/
 }
 
 /*１枚目の写真*/
 .list2.image1 {
-	background: url("./images/1.jpg") no-repeat center center / cover;
+	background: url("../images/1.jpg") no-repeat center center / cover;
 }
 
 /*２枚目の写真*/
 .list1.image2 {
-	background: url("./images/naosu.jpg") no-repeat center center / cover;
+	background: url("../images/naosu.jpg") no-repeat center center / cover;
 }
 
 /*３枚目の写真*/
 .list2.image3 {
-	background: url("./images/souji.jpg") no-repeat center center / cover;
+	background: url("../images/souji.jpg") no-repeat center center / cover;
 }
 
 /*４枚目の写真*/
 .list1.image4 {
-	background: url("./images/horu.jpg") no-repeat center center / cover;
+	background: url("../images/horu.jpg") no-repeat center center / cover;
 }
 
 /*5枚目の写真*/
 .list2.image5 {
-	background: url("./images/3.jpg") no-repeat center center / cover;
+	background: url("../images/3.jpg") no-repeat center center / cover;
 }
 
 /*ボックス１個あたり*/
