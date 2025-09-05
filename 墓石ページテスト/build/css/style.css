@@ -639,7 +639,7 @@ main {
 /*h2見出し（共通）*/
 main h2 {
 	margin: 0;padding: 0;
-	font-size: 1.4rem;		/*文字サイズ。240%。*/
+	font-size: 1.2rem;		/*文字サイズ。240%。*/
 	font-weight: 800;		/*太字に*/
 	margin-bottom: 5vw;		/*下にスペースを空ける*/
 	display: flex;
@@ -1911,27 +1911,6 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 	.pc {display: block;}
 
 	}/*追加指定ここまで*/
-
-	/*3DCAD*/
-/* 1) ラッパーを基準にしてサイズを決める */
-.iframe-wrap{
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16/9;     /* 固定高さにしたいなら height: 520px; などでも可 */
-  overflow: hidden;
-}
-
-/* 2) 中のiframeはラッパー内でぴったりに配置 */
-.iframe-wrap iframe{
-  position: absolute;
-  inset: 0;               /* top:0; right:0; bottom:0; left:0; の省略 */
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: block;
-  z-index: 0;             /* 万一ほか要素に被る場合の予防 */
-}
-
 
 
 
